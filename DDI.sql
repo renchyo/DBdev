@@ -55,7 +55,6 @@ pat_id int not NULL,
 doc_uslugi float,
 palata_uslugi float,
 analizi_uslugi float,
-obshiy float,
 foreign key (pat_id) references patient (pat_id)
 ON DELETE NO ACTION
   ON UPDATE NO action);
